@@ -271,7 +271,91 @@ function empreRol($html, $id) {
     
 ?>
 
+<!-- Inicializacion de las demostraciones de las ofertas -->
+<!-- Funcion para mostrar las imagenes de oferta -->
+<?php 
 
+function seleccionarImgofert($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM catalogo_ofertas WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+    }
+    echo $cadena;
+}
+    
+?>
+
+<!--Funcion para mostrar TEXTO (TITULO) de las imagenes de oferta -->
+<?php 
+
+function seleccionarTitlofert($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM catalogo_ofertas WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", $fila['titulo'], $html);
+    }
+    echo $cadena;
+}
+    
+?>
+
+<!-- Funcion para mostrar TEXTO (TITULO) de la imagen de ofertas [DESCRIPCION]-->
+<?php 
+
+function seleccionarDesofert($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM catalogo_ofertas WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", $fila['descripcion'], $html);
+    }
+    echo $cadena;
+}
+    
+?>
+
+<!-- Funcion para mostrar TEXTO de la imagen de ofertas [COSTO]-->
+<?php 
+
+function seleccionarCosofert($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM catalogo_ofertas WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", $fila['costo'], $html);
+    }
+    echo $cadena;
+}
+    
+?>
+
+<!-- Funcion para mostrar TEXTO de la imagen de ofertas [VIGENCIA]-->
+<?php 
+
+function seleccionarVigofert($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM catalogo_ofertas WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", $fila['vigencia'], $html);
+    }
+    echo $cadena;
+}
+    
+?>
 
 
 <?php
