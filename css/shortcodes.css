@@ -1032,6 +1032,9 @@ a.socials:hover, a.socials-small:hover {
 a.facebook {
     background: url("../images/icons/socials/facebook.png") no-repeat scroll 0 0 transparent;
 }
+a.tiktok {
+    background: url("../images/icons/socials/tiktok.png") no-repeat scroll 0 0 transparent;
+}
 a.instagram {
     background: url("../images/icons/socials/instagram.png") no-repeat scroll 0 0 transparent;
 }
@@ -1064,6 +1067,9 @@ a.bookmark {
 }
 a.facebook-small {
     background: url("../images/icons/small-socials/facebook.png") no-repeat scroll 0 0 transparent;
+}
+a.tiktok-small {
+    background: url("../images/icons/small-socials/tiktok.png") no-repeat scroll 0 0 transparent;
 }
 a.instagram-small {
     background: url("../images/icons/small-socials/instagram.png") no-repeat scroll 0 0 transparent;

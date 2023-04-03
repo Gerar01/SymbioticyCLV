@@ -1323,8 +1323,7 @@
                                         <div class="">
 
                                            <!--RED SOCIAL INSTAGRAM INSCRUSTADA -->
-                                           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                                           <div class="elfsight-app-96dfd325-934d-4050-aee5-59b7d0f8ae07"></div>
+                                                          <blockquote class="instagram-media" data-instgrm-permalink="https://instagram.com/correlavozchiapas?igshid=YmMyMTA2M2Y=" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Cp6OHs1NvwX/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida de CorreLaVozChiapas (@correlavozchiapas)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
                                        </li>
 
@@ -1443,54 +1442,181 @@ $(window).resize(function(){
             <div class="border-line"></div>
         </div>
 
-        <h3 class="span2">Random numbers</h3>
-
+        <h3 class="span2">Descubre nuestros servicios ....</h3>
         <div class="span5">
             <div class="border-line"></div>
         </div>
+        <div id="primary" class="sidebar-right">
+    <div class="container group">
+        <div class="row">
+            <!-- START CONTENT -->
+            <div id="content-page" class="span9 content group">
+                <div class="page type-page status-publish hentry group">
+                    <div class="accordion-container">
+                        
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 2);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 2); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<p>[dataDb]</p>', 2);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 2);?></p>
+                                                <p>
+                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
+                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/CorreLaVozChiapas">Corre La Voz</a>
+
+                                                </p>
+                                                
+                                                <p>
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
+
+
+                                            </p>
+
+                                            </div>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61283.53376158659!2d-92.15769678798742!3d16.260447164605225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d47bd56d28269%3A0x6c47d46464a1cf98!2sCorre%20la%20Voz%20%26%20CLV%20Travel!5e0!3m2!1ses-419!2smx!4v1678559105018!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 1);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 1); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<p>[dataDb]</p>', 1);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 1);?></p>
+                                                <p>
+                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
+                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/symbiotic.mx">Symbiotic</a>
+
+                                                </p>
+                                                
+                                                <p>
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+
+                                                <a href="" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529635939610&data=AWC_exmqmrU1oNekaBxpjKDVFFzw5qcqJ0DdKW3gCBI1DnjWzg0s5JDPzQeu_tU4hV2L3N7tRXpPXX9eq567gagxkvCl9LnJ11BjM1WV7Q4_XaqrFIynLM8jUMskl3xKxsGzlgv30Fi9EZIbeh7IZvW86r3ltX915tVPil9szA2af38RuEElaG-I_6OtRc1DawatwPizy5M3RMeRXQaT444NmNS780ZcKCkdKFchKfTl5Wk9U0XkIjD92OyFB5j79oxHsFJMtTDYWUU0QJOOsA&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+
+
+                                            </p>
+
+                                            </div>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.437217605123!2d-92.1337502584682!3d16.24934720484399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d47562314f7a3%3A0x1f123f59a95e6838!2sSYMBIOTIC!5e0!3m2!1ses-419!2smx!4v1678583114205!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 3);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 4); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<p>[dataDb]</p>', 4);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 4);?></p>
+                                                <p>
+                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
+                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/CasaDelSolComitan">Hostal Casa Del Sol</a>
+
+                                                </p>
+                                                
+                                                <p>
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/367551127145198" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                
+                                                <a href="https://www.instagram.com/hostalcasadelsolcomitan/" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWDtUo-CkzGqMx6lkBt5Naj9n_qNFdbdQMjrah__OhG5lxjp-ljH_tVKDhB-_rky6G6PhMvSR48J8v19PTeRvCcHnwMie_ry_CIgwcOVvZgjZUMbarlag6kdS1_3tgNiscf46uih-RXCxnQLbmNI7TjTD5T0EZvkH084GTo4J-wThZNXmj2aX5AD7q-g9Rb1yd8Phhitw7Vt0JwDZlDmJTHPSBlpPpAlJB7i52ihB82Qde8nBKzWCvOI1_m2l8sM2RbX7aXEKvu9BI28IdeNGQ&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+
+
+                                            </p>
+
+                                            </div>
+                                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.4437122913923!2d-92.14771518520463!3d16.24901388877005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d3959886fe8ad%3A0x52647540ffd06979!2sHostal%20Casa%20Del%20Sol%20Comit%C3%A1n!5e0!3m2!1ses-419!2smx!4v1678583482750!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        jQuery(document).ready(function($){
+                            $('.accordion-title').click(function(){
+                                if( !$(this).hasClass('active') ) {
+                                    $('.accordion-title').removeClass('active').find(':first-child').addClass('plus').text("+").removeClass('minus');
+                                    $('.accordion-item').slideUp();
+
+                                    $(this).toggleClass('active')
+                                            .find(':first-child').removeClass('plus').addClass('minus').text("-").parent().next().slideToggle();
+                                }
+                            }).filter(':first').click();
+                        });
+                    </script>
+
     </div>
 
 
-    <div class="one-fourth ">
-        <div class="random-numbers">
-            <img src="images/110.jpg" alt="" width="52" height="52" />
-            <p>satisfied customers</p>
-            <span class="number">1590</span>
-        </div>
-    </div>
-
-    <div class="one-fourth ">
-        <div class="random-numbers">
-            <img src="images/25.jpg" alt="" width="52" height="52" />
-            <p>Freelance projects</p>
-            <span class="number">65</span>
-        </div>
-    </div>
-
-    <div class="one-fourth ">
-        <div class="random-numbers">
-            <img src="images/31.jpg" alt="" width="52" height="52" />
-            <p>sales on themeforest</p>
-            <span class="number">12.845</span>
-        </div>
-    </div>
-
-    <div class="one-fourth last">
-        <div class="random-numbers">
-            <img src="images/41.jpg" alt="" width="52" height="52" />
-            <p>...Weekly Coffee!</p>
-            <span class="number">36</span>
-        </div>
-    </div>
-</div>
 
 
-
-
-
-<!-- START COMMENTS -->
-<div id="comments"></div>
-<!-- END COMMENTS -->
 </div>
 <!-- END CONTENT -->
 
@@ -1503,144 +1629,7 @@ $(window).resize(function(){
 <!-- END PRIMARY -->
 
 
-<!-- START FOOTER -->
-<div id="footer">
-    <div class="container">
-        <div class="row">
-            <div>
-                <div class="widget-first widget span3 recent-posts">
-                    <h3>From my blog</h3>
-                    <div class="recent-post">
-                        <div class="post type-post status-publish format-gallery hentry category-web-design group">
-
-                            <div class="date">
-                                <span class="month">Oct</span>
-                                <span class="day">8</span>
-                            </div>
-
-                            <div class="text">
-                                <h3>
-                                    <a href="blog-detail.html" title="This is the title of the first article. Enjoy it.">
-                                        This is the title of the first article. Enjoy it.
-                                    </a>
-                                </h3>
-                                <p>by
-                                    <a href="author-celestino.html" title="Posts by celestino" rel="author">
-                                        celestino
-                                    </a> -
-
-                                    <a href="blog-detail.html#respond" title="Comment on This is the title of the first article. Enjoy it.">
-                                        0 comments
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="post type-post status-publish format-standard hentry category-elegant-vintage group">
-
-                            <div class="date">
-                                <span class="month">Sep</span>
-                                <span class="day">12</span>
-                            </div>
-
-                            <div class="text">
-                                <h3>
-                                    <a href="#" title="Nice &amp; Clean. The best for your blog!">
-                                        Nice &amp; Clean. The best for your blog!
-                                    </a>
-                                </h3>
-
-                                <p>by
-                                    <a href="#" title="Posts by celestino" rel="author">
-                                        celestino
-                                    </a> -
-                                    <a href="#" title="Comment on Nice &amp; Clean. The best for your blog!">
-                                        0 comments
-                                    </a>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="widget span3 widget_flickrRSS">
-                    <h3>My Flickr</h3>
-
-                    <a title="1P4B6832" href="http://www.flickr.com/photos/gordonkw41/8756237357/"><img alt="1P4B6832" src="http://farm9.staticflickr.com/8553/8756237357_32d559d451_s.jpg"></a>
-                    <a title="DSC03253" href="http://www.flickr.com/photos/dovz/8756237387/"><img alt="DSC03253" src="http://farm8.staticflickr.com/7422/8756237387_1c3013358d_s.jpg"></a>
-                    <a title="Tappas in Hondarribia" href="http://www.flickr.com/photos/francolupo/8756237389/"><img alt="Tappas in Hondarribia" src="http://farm3.staticflickr.com/2867/8756237389_faae5159f8_s.jpg"></a>
-                    <a title="P1000624" href="http://www.flickr.com/photos/24690780@N02/8756237421/"><img alt="P1000624" src="http://farm9.staticflickr.com/8393/8756237421_43de542797_s.jpg"></a>
-                    <a title="" href="http://www.flickr.com/photos/chioushibo/8756237483/"><img alt="" src="http://farm6.staticflickr.com/5454/8756237483_9a8805a3d4_s.jpg"></a>
-                    <a title="P1010059" href="http://www.flickr.com/photos/uzagaku/8756237507/"><img alt="P1010059" src="http://farm4.staticflickr.com/3777/8756237507_e6e45db22a_s.jpg"></a>
-                    <a title="Berlijn 2013" href="http://www.flickr.com/photos/carlawiddershoven/8756237559/"><img alt="Berlijn 2013" src="http://farm3.staticflickr.com/2809/8756237559_16964e44ea_s.jpg"></a>
-                    <a title="20130518-_DSC9574" href="http://www.flickr.com/photos/fomalhaut/8757363666/"><img alt="20130518-_DSC9574" src="http://farm3.staticflickr.com/2857/8757363666_cce1ef7ea5_s.jpg"></a>
-                    <a title="20130519_144623.jpg" href="http://www.flickr.com/photos/lewisdgriffin/8757363718/"><img alt="20130519_144623.jpg" src="http://farm4.staticflickr.com/3817/8757363718_64d870995a_s.jpg"></a>
-                    <a title="baden-württenmberg und bayern 2013 1 284" href="http://www.flickr.com/photos/russianchild007/8757363726/"><img alt="baden-württenmberg und bayern 2013 1 284" src="http://farm4.staticflickr.com/3773/8757363726_e7c9ed61a7_s.jpg"></a>
-                </div>
-                <div  class="widget span3 contact-info">
-                    <h3>Get in touch</h3>
-                    <div class="sidebar-nav">
-                        <ul>
-                            <li>
-                                <i class="icon-map-marker" style="color:#000;font-size:12px;width:12px;height:12px"></i>
-                                <span>Address:</span> Celestino, 115 Avenue - Italy
-                            </li>
-                            <li>
-                                <i class="icon-phone" style="color:#000;font-size:12px;width:12px;height:12px"></i>
-                                <span>Mobile:</span> +39 3471717174
-                            </li>
-                            <li>
-                                <i class="icon-print" style="color:#000;font-size:12px;width:12px;height:12px"></i>
-                                <span>Fax:</span> +39 0035 356 765
-                            </li>
-                            <li>
-                                <i class="icon-envelope" style="color:#000;font-size:12px;width:12px;height:12px"></i>
-                                <span>Email:</span> celestino@yit.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="last-tweets-2" class=" widget span3 last-tweets">
-                    <h3>Last Tweets</h3>
-                    <div class="list-tweets-2">
-
-                    </div>
-
-                    <script type="text/javascript">
-                        jQuery(function($){
-                            $('#last-tweets-2 .list-tweets-2').tweetable({
-                                listClass: 'tweets-widget-2',
-                                username: 'envato',
-                                time: true,
-                                limit: 2,
-                                replies: true
-                            });
-                        });
-                    </script>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END FOOTER -->
-
-<!-- START COPYRIGHT -->
-<div id="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="left span6">
-                <a href="http://yithemes.com/?ddownload=60426&amp;ap_id=celestino-html"><strong>Download the free version for Wordpress</strong></a>
-            </div>
-            <div class="right span6">
-                <p>Powered by
-                    <a href="http://yithemes.com/" title="free themes wordpress">
-                        <strong>Your Inspiration Themes</strong>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END COPYRIGHT -->
+<?php include('footer.html');?>
 
 </div>
 <!-- END WRAPPER -->

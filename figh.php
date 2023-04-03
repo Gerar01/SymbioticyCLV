@@ -9,7 +9,7 @@ function seleccionarImgs1($html, $id) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
     }
     echo $cadena;
 }
@@ -27,7 +27,7 @@ function seleccionarImgpri($html, $id) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
     }
     echo $cadena;
 }
@@ -146,7 +146,7 @@ function seleccionarImggal($html, $id) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
     }
     echo $cadena;
 }
@@ -216,7 +216,7 @@ function imgEmpresa($html, $id) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['Ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['Ruta'],3), $html);
     }
     echo $cadena;
 }
@@ -282,7 +282,7 @@ function seleccionarImgofert($html, $id) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
     }
     echo $cadena;
 }
@@ -368,7 +368,7 @@ function seleccionarImgs2($html, $query) {
     $cadena = "";
 
     while($fila=mysqli_fetch_array($execute)){
-        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],36), $html);
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
     }
     echo $cadena;
 }
