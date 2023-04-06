@@ -19,42 +19,43 @@ if($varsesion== null || $varsesion=''){
 include('../header.html');
  ?>
             <div id="layoutSidenav_content">
- <center><h3><b>Registro de ofertas</b></h3></center>
+ <center><h3><b>Registro para un nuevo blog</b></h3></center>
 <section>
-        <div class="container">
+      <div class="container">
             <div>
-                <div class="col-md-10 col-md-offset-2">
-                        <div class="panel panel-primary">
+                  <div class="col-md-10 col-md-offset-2">
+                              <div class="panel panel-primary">
                       
                       <table width="100%">
-                      <form action="alta_ofertas.php" method="post" id="frmcliente" enctype="multipart/form-data">
+                      <form action="alta_blog.php" method="post" id="frmcliente" enctype="multipart/form-data">
                       <tr class="espacio"> 
-                      <td align="right"> <label for="ruta">Ruta Imagen:</label></td><td><input type="text" class="form-control" name="ruta" id="ruta" onkeyup="setCustomValidity('')"placeholder="Ingresa una ruta" autofocus required></td>
-                      </tr>  
+                      <td align="right"> <label for="nombre">Nombre del quien publica:</label></td><td><input type="text" class="form-control" name="nombre" id="nombre" onkeyup="setCustomValidity('')"placeholder="Ingresa un nombre" autofocus required></td>
+                      </tr>
                       <tr class="espacio"> 
                       <td align="right"> <label for="titulo">Titulo:</label></td><td><input type="text" class="form-control" name="titulo" id="titulo" onkeyup="setCustomValidity('')"placeholder="Ingresa un titulo" autofocus required></td>
+                      </tr>  
+                      
+                      <tr class="espacio"> 
+                      <td align="right"> <label for="descripcion">Descripcion del blog:</label></td><td><input type="text" class="form-control" name="descripcion" id="descripcion" onkeyup="setCustomValidity('')"placeholder="Ingresa una descricion de la oferta" autofocus required></td>
                       </tr>
-                      <td align="right"> <label for="descripcion">Descripcion:</label></td><td><input type="text" class="form-control" name="descripcion" id="descripcion" onkeyup="setCustomValidity('')"placeholder="Ingresa una descripción" autofocus required></td>
+                      <tr class="espacio"> 
+                      <td align="right"> <label for="imagen">Ruta imagen:</label></td><td><input type="text" class="form-control" name="imagen" id="imagen" onkeyup="setCustomValidity('')"placeholder="Ingresa la ruta de la imagen" autofocus required></td>
                       </tr>
-                      <td align="right"> <label for="costo">Costo:</label></td><td><input type="text" class="form-control" name="costo" id="costo" onkeyup="setCustomValidity('')"placeholder="Ingresa un costo" autofocus required></td>
+                      <tr class="espacio"> 
+                      <td align="right"> <label for="fecha_hora">Fecha y hora:</label></td><td><input type="text" class="form-control" name="vigencia" id="fecha_hora" onkeyup="setCustomValidity('')"placeholder="Ingresa una fecha y hora" autofocus required></td>
                       </tr>
-                      <td align="right"> <label for="vigencia">Vigencia:</label></td><td><input type="text" class="form-control" name="vigencia" id="vigencia" onkeyup="setCustomValidity('')"placeholder="Ingresa una vigencia" autofocus required></td>
-                      </tr>
-
                       <tr>
-                      <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td>
+                          <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td>
                       </tr>
-                      </form>
+                          </form>
                       </table>
                       <!-- termina la tabla -->
                       </div>
                       </div>
-                </div>
+                  </div>
             </div>
-        </div>
+      </div>
     </section>
-
-
 
 
                 

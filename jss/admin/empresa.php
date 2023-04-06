@@ -4,17 +4,17 @@
 include('../header.html');
  ?>
             <div id="layoutSidenav_content">
- <center><h3><b>Consulta y Modificación de datos de empresa</b></h3></center>
+<center><h3><b>Consulta y Modificación de datos servicios o empresa </b></h3></center>
 <section>
     <table  border="0" cellspacing="0" >
     <form action="#" method="post" id="frmbuscar">
      <tr class="espacio">
-     <td align="right"> <label for="ruta">Buscar:</label></td><td><input type="text" class="form-control" name="ruta" id="ruta" autocomplete="off"></td>
+     <td align="right"> <label for="id">Buscar:</label></td><td><input type="text" class="form-control" name="id" id="id" autocomplete="off"></td>
      <td align="center" colspan="2"><input type="submit"  class="btn btn-primary" value="Consultar"  title="Consultar"></td>
      </tr>
     <?php
       
-      if(isset($_POST['ruta']) ){
+      if(isset($_POST['id']) ){
   
             require_once("../conexion/conexion.php");
         
@@ -24,10 +24,11 @@ include('../header.html');
       echo "<table class='table table-striped'>";
       echo "<tr>
                                       
-                  <th class='success'><center>Ruta de la imagen</center></th>
-                  <th class='success'><center>Nombre de la empresa</center></th>
-                  <th class='success'><center>Descripción de la empresa</center></th>
-                  <th class='success'><center>Rol de la empresa</center></th>
+                  <th class='success'><center>Ruta</center></th>
+                  <th class='success'><center>Empresa</center></th>
+                  <th class='success'><center>Descripcion</center></th>
+                  <th class='success'><center>Rol</center></th>
+                  <th class='success'><center>Sección</center></th>
                   <th class='success'><center>Editar</center></th>
                   <th class='success'><center>Eliminar</center></th>
                                               
@@ -42,7 +43,7 @@ include('../header.html');
             $Empresa =  $row['Empresa'];
             $Descripcion_Emp =  $row['Descripcion_Emp'];
             $Rol =  $row['Rol'];
-          
+            $Seccion =  $row['Seccion'];
            
             
            
@@ -53,6 +54,7 @@ include('../header.html');
             <td class='active'><center>$Empresa</center></td>
             <td class='active'><center>$Descripcion_Emp</center></td>
             <td class='active'><center>$Rol</center></td>
+            <td class='active'><center>$Seccion</center></td>
             <td class='active'><center><a href='modificar_emp.php?id=$id'><img  width='32px' height='32px' src='../images/editar.png'/></center></a></td>
             <td class='active'><center><a onClick='confirmar($id)'><img width='32px' height='32px' src='../images/eliminar.jpg'/></center></a></td>
     
@@ -65,7 +67,6 @@ include('../header.html');
             </form>                                                                                                                             
             </table> 
     </section>
-
 
                 
             </div>

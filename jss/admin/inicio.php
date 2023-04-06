@@ -92,7 +92,7 @@ include('../header.html');
     var aceptar=confirm("\u00bfRealmente deseas eliminar el registro?"); 
     if (aceptar) 
     {
-    document.location="eliminar_galeria.php?opcion="+id;
+    document.location="eliminar_inicio.php?opcion="+id;
     }
     else{
     

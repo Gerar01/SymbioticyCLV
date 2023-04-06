@@ -4,9 +4,9 @@ $Ruta = $_POST['Ruta'];
 $Empresa = $_POST['Empresa'];
 $Descripcion_Emp = $_POST['Descripcion_Emp'];
 $Rol = $_POST['Rol'];
+$Seccion = $_POST['Seccion'];
 
-
-$sql = "INSERT INTO datos(Ruta,Empresa,Descripcion_Emp,Rol) values('$Ruta','$Empresa','$Descripcion_Emp','$Rol')";
+$sql = "INSERT INTO datos(Ruta,Empresa,Descripcion_Emp,Rol,Seccion) values('$Ruta','$Empresa','$Descripcion_Emp','$Rol','$Seccion')";
 
 
 $consulta=mysqli_query($link,$sql );

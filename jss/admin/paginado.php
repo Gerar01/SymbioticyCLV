@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <?php
 include('../header.html');
  ?>
             <div id="layoutSidenav_content">
- <center><h3><b>Consulta y Modificación de datos para la tabla de galería</b></h3></center>
+ <center><h3><b>Consulta y Modificación de datos del paginado</b></h3></center>
 <section>
     <table  border="0" cellspacing="0" >
     <form action="#" method="post" id="frmbuscar">
@@ -18,7 +18,7 @@ include('../header.html');
   
             require_once("../conexion/conexion.php");
         
-      $result = mysqli_query($link, "SELECT * FROM imagen_index");
+      $result = mysqli_query($link, "SELECT * FROM galeria");
     
      
       echo "<table class='table table-striped'>";
@@ -83,7 +83,7 @@ include('../header.html');
     var aceptar=confirm("\u00bfRealmente deseas eliminar el registro?"); 
     if (aceptar) 
     {
-    document.location="eliminar_galeria.php?opcion="+id;
+    document.location="eliminar_paginado.php?opcion="+id;
     }
     else{
     

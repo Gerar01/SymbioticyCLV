@@ -8,10 +8,10 @@ $Descripcion = $_POST['Descripcion'];
 
 
 
-  mysqli_query($link,"UPDATE imagen_index set ruta='$ruta', Sub_imagen='$Sub_imagen', Titulo='$Titulo', Descripcion='$Descripcion' where id='$id'"); 
+  mysqli_query($link,"UPDATE galeria set ruta='$ruta', Sub_imagen='$Sub_imagen', Titulo='$Titulo', Descripcion='$Descripcion' where id='$id'"); 
 echo "
                 <script language='JavaScript'>
                 alert('Datos Modificados...');
-                document.location='galeria.php';
+                document.location='paginado.php';
                 </script>";
 ?>

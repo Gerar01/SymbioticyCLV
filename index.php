@@ -1457,102 +1457,7 @@ $(window).resize(function(){
                         <div class="accordion-wrapper row">
                             <div class="accordion-title span9">
                                 <div class="plus">+</div>
-                                <h4><?php empreTitu('[dataDb]', 2);?></h4>
-                            </div>
-                            
-                            <div class="accordion-item span9">
-                                <div class="row">
-                                    <div class="span3">
-                                        <div class="accordion-item-thumb">
-                                            <?php imgEmpresa('<img src="[dataDb]">', 2); ?>
-                                        </div>
-                                    </div>
-                                    <!-- end span3 -->
-                                    
-                                    <div class="span6">
-                                        <div class="accordion-item-content">
-                                           <?php empreDes('<p>[dataDb]</p>', 2);?>
-                                            
-                                            <div class="meta">
-                                                <p>
-                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 2);?></p>
-                                                <p>
-                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
-                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/CorreLaVozChiapas">Corre La Voz</a>
-
-                                                </p>
-                                                
-                                                <p>
-                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
-                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
-                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
-                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
-                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
-
-
-                                            </p>
-
-                                            </div>
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61283.53376158659!2d-92.15769678798742!3d16.260447164605225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d47bd56d28269%3A0x6c47d46464a1cf98!2sCorre%20la%20Voz%20%26%20CLV%20Travel!5e0!3m2!1ses-419!2smx!4v1678559105018!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-wrapper row">
-                            <div class="accordion-title span9">
-                                <div class="plus">+</div>
-                                <h4><?php empreTitu('[dataDb]', 1);?></h4>
-                            </div>
-                            
-                            <div class="accordion-item span9">
-                                <div class="row">
-                                    <div class="span3">
-                                        <div class="accordion-item-thumb">
-                                            <?php imgEmpresa('<img src="[dataDb]">', 1); ?>
-                                        </div>
-                                    </div>
-                                    <!-- end span3 -->
-                                    
-                                    <div class="span6">
-                                        <div class="accordion-item-content">
-                                           <?php empreDes('<p>[dataDb]</p>', 1);?>
-                                            
-                                            <div class="meta">
-                                                <p>
-                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 1);?></p>
-                                                <p>
-                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
-                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/symbiotic.mx">Symbiotic</a>
-
-                                                </p>
-                                                
-                                                <p>
-                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
-                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
-
-                                                <a href="" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
-
-                                                <a href="https://api.whatsapp.com/send?phone=%2B529635939610&data=AWC_exmqmrU1oNekaBxpjKDVFFzw5qcqJ0DdKW3gCBI1DnjWzg0s5JDPzQeu_tU4hV2L3N7tRXpPXX9eq567gagxkvCl9LnJ11BjM1WV7Q4_XaqrFIynLM8jUMskl3xKxsGzlgv30Fi9EZIbeh7IZvW86r3ltX915tVPil9szA2af38RuEElaG-I_6OtRc1DawatwPizy5M3RMeRXQaT444NmNS780ZcKCkdKFchKfTl5Wk9U0XkIjD92OyFB5j79oxHsFJMtTDYWUU0QJOOsA&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
-
-
-                                            </p>
-
-                                            </div>
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.437217605123!2d-92.1337502584682!3d16.24934720484399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d47562314f7a3%3A0x1f123f59a95e6838!2sSYMBIOTIC!5e0!3m2!1ses-419!2smx!4v1678583114205!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-wrapper row">
-                            <div class="accordion-title span9">
-                                <div class="plus">+</div>
-                                <h4><?php empreTitu('[dataDb]', 3);?></h4>
+                                <h4><?php empreTitu('[dataDb]', 4);?></h4>
                             </div>
                             
                             <div class="accordion-item span9">
@@ -1566,36 +1471,155 @@ $(window).resize(function(){
                                     
                                     <div class="span6">
                                         <div class="accordion-item-content">
-                                           <?php empreDes('<p>[dataDb]</p>', 4);?>
+                                           <?php empreDes('<h3>[dataDb]</h3>', 4);?>
                                             
                                             <div class="meta">
                                                 <p>
                                                     <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 4);?></p>
-                                                <p>
-                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
-                                                    Sitio Web: <a target="_blank" href="https://www.facebook.com/CasaDelSolComitan">Hostal Casa Del Sol</a>
-
-                                                </p>
                                                 
                                                 <p>
                                                 <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
-                                                <a href="https://www.facebook.com/messages/t/367551127145198" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
-                                                
-                                                <a href="https://www.instagram.com/hostalcasadelsolcomitan/" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
-
-                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWDtUo-CkzGqMx6lkBt5Naj9n_qNFdbdQMjrah__OhG5lxjp-ljH_tVKDhB-_rky6G6PhMvSR48J8v19PTeRvCcHnwMie_ry_CIgwcOVvZgjZUMbarlag6kdS1_3tgNiscf46uih-RXCxnQLbmNI7TjTD5T0EZvkH084GTo4J-wThZNXmj2aX5AD7q-g9Rb1yd8Phhitw7Vt0JwDZlDmJTHPSBlpPpAlJB7i52ihB82Qde8nBKzWCvOI1_m2l8sM2RbX7aXEKvu9BI28IdeNGQ&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
 
 
                                             </p>
 
                                             </div>
-                                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.4437122913923!2d-92.14771518520463!3d16.24901388877005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858d3959886fe8ad%3A0x52647540ffd06979!2sHostal%20Casa%20Del%20Sol%20Comit%C3%A1n!5e0!3m2!1ses-419!2smx!4v1678583482750!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            
                                             
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 5);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 5); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<h3>[dataDb]</h3>', 5);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 5);?></p>
+                                                
+                                                
+                                                <p>
+                                                
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
+
+
+                                            </p>
+
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 6);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 6); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<h3>[dataDb]</h3>', 6);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 6);?></p>
+                                                
+                                                
+                                                <p>
+                                                
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
+
+                                            </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4><?php empreTitu('[dataDb]', 7);?></h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <?php imgEmpresa('<img src="[dataDb]">', 7); ?>
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                           <?php empreDes('<h3>[dataDb]</h3>', 7);?>
+                                            
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Rol: <?php empreRol('[dataDb]', 7);?></p>
+                                                
+                                                
+                                                <p>
+                                                
+                                                <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Contactanos:
+                                                <a href="https://www.facebook.com/messages/t/1498853930392008" target="_blank" class="socials-small facebook-small" title="Facebook"  >Facebook</a>
+                                                <a href="https://www.instagram.com/direct/t/340282366841710300949128483515835429612" target="_blank" class="socials-small instagram-small" title="Instagram" >Instagram</a>
+                                                <a href="https://api.whatsapp.com/send?phone=%2B529631574565&data=AWCrNeBN8KKaFnDBrosmqkDmL9Z_FAbuo1lt-PcRt4O7Fh-MLU6t8IpokiaVEQ9jah-aJNO5pQw6OMOkYFs2-GA1vymx-3cFCP4DljvyXd83XVdMCwj1dekSdznnOl-73cabI8JPpMLYj1pvkaY15m5cHsvwTezqw2q8BHQpTyRvw97O4KiPhOvz9VGomZEQArDfab711cgY0W8qVUEmB0zCt96_aItFcs4lu7fPTu8X5IW1zgnBZG1Ftpd_9zZ9l9XH8Ny19HvbHTSOzygKug&source=FB_Page&app=facebook&entry_point=page_cta" target="_blank" class="socials-small whatsapp-small" title="Whatsapp">Whatsapp</a>
+                                                <a href="https://www.tiktok.com/@correlavozchiapas" target="_blank" class="socials-small tiktok-small" title="TikTok">Tik Tok</a>
+
+                                            </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <script>

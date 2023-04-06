@@ -305,78 +305,49 @@ include('figh.php');
 
             <!-- START SIDEBAR -->
             <div id="sidebar-about" class="span3 sidebar group">
-                <div class="widget-first widget recent-posts">
-                    <h3>From the blog</h3>
-                    <div class="recent-post group">
-                        <div class="hentry-post group">
-                            <div class="thumb-img">
-                                <img width="55" height="55" src="images/slider/23-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="23" />
-                            </div>
-                            <div class="text">
-                                <a href="blog-detail.html" title="This is the title of the first article. Enjoy it." class="title">
-                                    This is the title of the first article. Enjoy it.
-                                </a>
-                                <p class="post-date">October 8, 2012 - 0 comments</p>
-                            </div>
-                        </div>
-                        <div class="hentry-post group">
-                            <div class="thumb-img">
-                                <img width="55" height="55" src="images/blog/imgbloh-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="imgbloh" />
-                            </div>
-                            <div class="text">
-                                <a href="#" title="Nice &amp; Clean. The best for your blog!" class="title">
-                                    Nice &amp; Clean. The best for your blog!
-                                </a>
-                                <p class="post-date">September 12, 2012 - 0 comments</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="widget-2 widget-last widget featured-projects">
-                    <h3>Featured Projects</h3>
+                    <h3>No dudes en contactarnos</h3>
                     <div class="featured-projects-widget flexslider">
                         <ul class="slides">
                             <li>
                                 <div class="thumb-project">
-                                    <a href='portfolio-slide-detail.html'>
-                                        <img width="320" height="154" src="images/portfolios/001-320x154.jpg" class="attachment-featured_project_thumb" alt="001_mini" />
+                                    <a href=''>
+                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 41); ?>
                                     </a>
                                 </div>
-
-                                <h4>Bob Miller</h4>
-                            </li>
+                                    <center><?php galTit('<h4>[dataDb]</h4>', 41);?> 
+                                </li>
                             <li>
                                 <div class="thumb-project">
-                                    <a href='#'>
-                                        <img width="320" height="154" src="images/portfolios/009_mini-320x154.jpg" class="attachment-featured_project_thumb" alt="009_mini" />
+                                    <a href=''>
+                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 42); ?>
                                     </a>
                                 </div>
 
-                                <h4>Guanacos</h4>
+                                <center><?php galTit('<h4>[dataDb]</h4>', 42);?>
                             </li>
                             <li>
                                 <div class="thumb-project"><a href='#'>
-                                    <img width="320" height="154" src="images/portfolios/007_mini-320x154.jpg" class="attachment-featured_project_thumb" alt="007_mini" />
+                                    <center><?php seleccionarImgs1('<img src="[dataDb]">', 43); ?>
                                 </a>
                                 </div>
-                                <h4>Kimeda</h4>
+                               <center><?php galTit('<h4>[dataDb]</h4>', 43);?>
                             </li>
                             <li>
                                 <div class="thumb-project">
                                     <a href='#'>
-                                        <img width="320" height="154" src="images/portfolios/001-320x154.jpg" class="attachment-featured_project_thumb" alt="004_mini" />
+                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 44); ?>
                                     </a>
                                 </div>
-                                <h4>Digitpool Medien  </h4>
+                                <center><?php galTit('<h4>[dataDb]</h4>', 44);?>
                             </li>
                             <li>
                                 <div class="thumb-project">
                                     <a href='#'>
-                                        <img width="320" height="154" src="images/portfolios/005_mini-320x154.jpg" class="attachment-featured_project_thumb" alt="005_mini" />
+                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 45); ?>
                                     </a>
                                 </div>
-                                <h4>Colorful Oktopus</h4>
+                                 <center><?php galTit('<h4>[dataDb]</h4>', 45);?>
                             </li>
                         </ul>
                     </div>

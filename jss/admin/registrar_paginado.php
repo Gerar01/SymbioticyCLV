@@ -19,7 +19,7 @@ if($varsesion== null || $varsesion=''){
 include('../header.html');
  ?>
             <div id="layoutSidenav_content">
-              <center><h3><b>Registrar una nueva foto en galeria</b></h3></center>
+              <center><h3><b>Registrar una nueva foto en el paginado</b></h3></center>
 <section>
     <table width="100%">
                       <form action="alta_galeria.php" method="post" id="frmcliente" enctype="multipart/form-data">
@@ -33,7 +33,7 @@ include('../header.html');
                       <td align="right"> <label for="Titulo">Titulo de la Imagen:</label></td><td><input type="text" class="form-control" name="Titulo" id="Titulo" onkeyup="setCustomValidity('')"placeholder="Ingresa un titulo de la imagen" autofocus required></td>
                       </tr>
                       <tr class="espacio"> 
-                      <td align="right"> <label for="Descripcion">Descripción de la Imagen:</label></td><td><input type="text" class="form-control" name="Descripcion" id="Descripcion" onkeyup="setCustomValidity('')"placeholder="Ingresa una descricion de la imagen" autofocus required></td>
+                      <td align="right"> <label for="Descripcion">Subtitulo de la Imagen:</label></td><td><input type="text" class="form-control" name="Descripcion" id="Descripcion" onkeyup="setCustomValidity('')"placeholder="Ingresa una descricion de la imagen" autofocus required></td>
                       </tr>
                       <tr>
                           <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td>
