@@ -243,7 +243,7 @@ include('figh.php');
                                 <div class="row">
                                     <div class="span3">
                                         <div class="accordion-item-thumb">
-                                            <?php imgEmpresa('<img src="[dataDb]">', 3); ?>
+                                            <?php imgEmpresa('<img src="[dataDb]" >', 3); ?>
                                         </div>
                                     </div>
                                     <!-- end span3 -->
@@ -312,42 +312,42 @@ include('figh.php');
                             <li>
                                 <div class="thumb-project">
                                     <a href=''>
-                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 41); ?>
+                                        <center><?php seleccionarPubQue('<img src="[dataDb]">', 1); ?>
                                     </a>
                                 </div>
-                                    <center><?php galTit('<h4>[dataDb]</h4>', 41);?> 
+                                    <center><?php pubTit('<h4>[dataDb]</h4>', 1);?> 
                                 </li>
                             <li>
                                 <div class="thumb-project">
                                     <a href=''>
-                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 42); ?>
+                                        <center><?php seleccionarPubQue('<img src="[dataDb]">', 2); ?>
                                     </a>
                                 </div>
 
-                                <center><?php galTit('<h4>[dataDb]</h4>', 42);?>
+                                <center><?php pubTit('<h4>[dataDb]</h4>', 2);?>
                             </li>
                             <li>
                                 <div class="thumb-project"><a href='#'>
-                                    <center><?php seleccionarImgs1('<img src="[dataDb]">', 43); ?>
+                                    <center><?php seleccionarPubQue('<img src="[dataDb]">', 3); ?>
                                 </a>
                                 </div>
-                               <center><?php galTit('<h4>[dataDb]</h4>', 43);?>
+                               <center><?php pubTit('<h4>[dataDb]</h4>', 3);?>
                             </li>
                             <li>
                                 <div class="thumb-project">
                                     <a href='#'>
-                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 44); ?>
+                                        <center><?php seleccionarPubQue('<img src="[dataDb]">', 4); ?>
                                     </a>
                                 </div>
-                                <center><?php galTit('<h4>[dataDb]</h4>', 44);?>
+                                <center><?php pubTit('<h4>[dataDb]</h4>', 4);?>
                             </li>
                             <li>
                                 <div class="thumb-project">
                                     <a href='#'>
-                                        <center><?php seleccionarImgs1('<img src="[dataDb]">', 45); ?>
+                                        <center><?php seleccionarPubQue('<img src="[dataDb]">', 5); ?>
                                     </a>
                                 </div>
-                                 <center><?php galTit('<h4>[dataDb]</h4>', 45);?>
+                                 <center><?php pubTit('<h4>[dataDb]</h4>', 5);?>
                             </li>
                         </ul>
                     </div>

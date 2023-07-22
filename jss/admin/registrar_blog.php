@@ -41,9 +41,40 @@ include('../header.html');
                       <tr class="espacio"> 
                       <td align="right"> <label for="imagen">Ruta imagen:</label></td><td><input type="text" class="form-control" name="imagen" id="imagen" onkeyup="setCustomValidity('')"placeholder="Ingresa la ruta de la imagen" autofocus required></td>
                       </tr>
-                      <tr class="espacio"> 
-                      <td align="right"> <label for="fecha_hora">Fecha y hora:</label></td><td><input type="text" class="form-control" name="vigencia" id="fecha_hora" onkeyup="setCustomValidity('')"placeholder="Ingresa una fecha y hora" autofocus required></td>
+                      
+                      
+
+                      <tr>
+                          <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td> 
                       </tr>
+                          </form>
+                      </table><br><br><br><br> <br> <br>
+                      <!-- termina la tabla -->
+                      </div>
+                      </div>
+                  </div>
+            </div>
+      </div>
+      <br>
+    </section>
+
+                
+            </div>
+            <center><h1><b>Registro para una nueva publicidad</b></h1></center>
+<section><center> 
+      <div class="container">
+            <div>
+                  <div class="col-md-10 col-md-offset-2">
+                              <div class="panel panel-primary">
+                      
+                      <table width="100%">
+                      <form action="alta_publicidad_blog.php" method="post" id="frmcliente" enctype="multipart/form-data">
+                      <tr class="espacio"> 
+                      <td align="right"> <label for="imagen">Imagen:</label></td><td><input type="text" class="form-control" name="imagen" id="imagen" onkeyup="setCustomValidity('')"placeholder="Ingresa el nombre de la imagen" autofocus required></td>
+                      </tr>
+                      <tr class="espacio"> 
+                      <td align="right"> <label for="descripcion">Titulo:</label></td><td><input type="text" class="form-control" name="descripcion" id="descripcion" onkeyup="setCustomValidity('')"placeholder="Ingresa una descricion" autofocus required></td>
+                      </tr>  
                       <tr>
                           <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td>
                       </tr>
@@ -57,9 +88,6 @@ include('../header.html');
       </div>
     </section>
 
-
-                
-            </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

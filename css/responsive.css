@@ -52,7 +52,7 @@
     
     /* === PAGES */
     .accordion-item .meta { position:static; }
-    .accordion-item-content { padding-bottom:20px; }
+    .accordion-item-content { padding-bottom:100px; }
     .error-404-text input#s { width:60%; }
     
     /* === SHORTCODES */

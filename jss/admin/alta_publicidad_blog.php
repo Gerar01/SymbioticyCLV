@@ -1,14 +1,11 @@
 <?php
 require_once ("../conexion/conexion.php");
-$nombre = $_POST['nombre'];
-$titulo = $_POST['titulo'];
-$descripcion = $_POST['descripcion'];
-$fecha_hora = $_POST['fecha_hora'];
 $imagen = $_POST['imagen'];
+$descripcion = $_POST['descripcion'];
 
 
 
-$sql = "INSERT INTO blog(nombre,titulo,descripcion,fecha_hora,imagen) values('$nombre','$titulo','$descripcion','$fecha_hora','$imagen')";
+$sql = "INSERT INTO publicidad_blog(imagen,descripcion) values('$imagen','$descripcion')";
 
 
 $consulta=mysqli_query($link,$sql );

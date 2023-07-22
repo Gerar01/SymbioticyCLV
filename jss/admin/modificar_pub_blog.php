@@ -15,7 +15,7 @@ if($varsesion== null || $varsesion=''){
 include('../header.html');
  ?>
             <div id="layoutSidenav_content">
- <center><h3><b>Modificación de blogs</b></h3></center>
+ <center><h3><b>Modificación de publicidad en blog</b></h3></center>
 <section>
       <div class="container">
       <div class="container">
@@ -26,34 +26,24 @@ include('../header.html');
                       <?php
                       require_once("../conexion/conexion.php");
                       $opcion = $_GET['id'];
-                      $result=mysqli_query($link,"SELECT * FROM blog WHERE id='$opcion'");
+                      $result=mysqli_query($link,"SELECT * FROM publicidad_blog WHERE id='$opcion'");
                       $consulta = mysqli_fetch_array($result)
                       ?>
 
                       <table width="100%">
-                      <form action="update_blog.php" method="post" id="frmcliente" enctype="multipart/form-data">
+                      <form action="modificar_publicidad_blog.php" method="post" id="frmcliente" enctype="multipart/form-data">
                         <tr class="espacio"> 
                         <input type="hidden" class="form-control" name="id" id="id" value="<?php echo $consulta['id'];?>">
                         </tr> 
 
 
                       <tr class="espacio"> 
-                      <td align="right"> <label for="nombre">Nombre:</label></td><td><input type="text" class="form-control" name="nombre" id="nombre" required value="<?php echo $consulta['nombre'];?>"></td>
+                      <td align="right"> <label for="imagen">Nombre:</label></td><td><input type="text" class="form-control" name="imagen" id="imagen" required value="<?php echo $consulta['imagen'];?>"></td>
                       </tr>
                       <tr class="espacio"> 
-                      <td align="right"> <label for="titulo">Titulo:</label></td><td><input type="text" class="form-control" name="titulo" id="titulo" required value="<?php echo $consulta['titulo'];?>"></td>
-                      </tr>
-                      <tr class="espacio"> 
-                      <td align="right"> <label for="descripcion">Descripción:</label></td><td><input type="text" class="form-control" name="descripcion" id="descripcion" required value="<?php echo $consulta['descripcion'];?>"></td>
-                      </tr>
-                      <tr class="espacio"> 
-                      <td align="right"> <label for="fecha_hora">Fecha y hora:</label></td><td><input type="text" class="form-control" name="fecha_hora" id="fecha_hora" required value="<?php echo $consulta['fecha_hora'];?>"></td>
-                      <tr class="espacio"> 
-                      <td align="right"> <label for="imagen">Nombre de la imagen:</label></td><td><input type="text" class="form-control" name="imagen" id="imagen" required value="<?php echo $consulta['imagen'];?>"></td>
-                      </tr>
-                      
-                      
-                      
+                      <td align="right"> <label for="descripcion">Titulo:</label></td><td><input type="text" class="form-control" name="descripcion" id="descripcion" required value="<?php echo $consulta['descripcion'];?>"></td>
+                      </tr>      
+                                      
                           <td align="center" colspan="2"><input type="submit"  name="registrar" class="btn btn-primary" value="Registrar"  title="Registrar"></td>
                       </tr>
                           </form>

@@ -161,8 +161,32 @@ include('figh.php');
                             }
                         ?>
                     </div>
-                    <div class="col-md-6" style="border: 1px solid #000; width: 100%;">
+                    <div class="col-md-6">
                             <!-- AQUI VA LA PUBLICIDAD -->
+                            <?php
+                            require_once('conexion.php');
+                            $query = "SELECT * FROM publicidad_blog";
+                            $respuesta = $conexion->query($query);
+                            while($fila = $respuesta->fetch_assoc()){
+                        ?>
+
+                            <div class="card mb-3" style="max-width: 540px; margin-bottom:10px">
+                                <div class="row" style="display:flex">
+                                    <div class="span4">
+                                        <img style="min-height: 180px; max-height: 180px; min-width: 250px; border-radius: 20px" src="blog_publicidad/<?php echo $fila['imagen'] ?>" alt="Imagen">
+                                    </div>
+                                    <div class="span8">
+                                        <div class="card-body">
+                                           
+                                            <h4><?php echo $fila['descripcion'] ?></h4>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

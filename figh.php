@@ -17,6 +17,41 @@ function seleccionarImgs1($html, $id) {
 
 ?>
 
+<!-- Funcion para mostrar imagen de publicidad que somos -->
+<?php
+
+function seleccionarPubQue($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM publicidad_que_somos WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", substr($fila['ruta'],3), $html);
+    }
+    echo $cadena;
+}
+
+
+?>
+
+<!--Funcion para mostrar texto de publicidad que somos -->
+<?php 
+
+function pubTit($html, $id) {
+    include('conexion.php');
+    $query="SELECT * FROM publicidad_que_somos WHERE id =".$id;
+    $execute= mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+    $cadena = "";
+
+    while($fila=mysqli_fetch_array($execute)){
+        $cadena .= str_replace("[dataDb]", $fila['descripcion'], $html);
+    }
+    echo $cadena;
+}
+    
+?>
+
 <!-- Funcion para mostrar la imagen de la pagina principal-->
 <?php 
 

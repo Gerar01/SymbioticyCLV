@@ -22,7 +22,7 @@ include('../header.html');
               <center><h3><b>Registrar una nueva foto en el paginado</b></h3></center>
 <section>
     <table width="100%">
-                      <form action="alta_galeria.php" method="post" id="frmcliente" enctype="multipart/form-data">
+                      <form action="alta_paginado.php" method="post" id="frmcliente" enctype="multipart/form-data">
                       <tr class="espacio"> 
                       <td align="right"> <label for="ruta">Ruta Imagen:</label></td><td><input type="text" class="form-control" name="ruta" id="ruta" onkeyup="setCustomValidity('')"placeholder="Ingresa una ruta" autofocus required></td>
                       </tr>  

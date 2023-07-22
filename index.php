@@ -109,20 +109,20 @@
 
                                             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                                                 <?php
-                                                  seleccionarImgs1('<img src="[dataDb]">', 19);    
+                                                  seleccionarImgs1('<img src="[dataDb]">', 2);    
                                                 ?>
                                             </li>
 
 
                                             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                                                 <?php
-                                                  seleccionarImgs1('<img src="[dataDb]">', 20);
+                                                  seleccionarImgs1('<img src="[dataDb]">', 3);
                                                 ?>   
                                             </li>
 
                                             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
                                                 <?php
-                                                  seleccionarImgs1('<img src="[dataDb]">', 21);
+                                                  seleccionarImgs1('<img src="[dataDb]">', 4);
                                                 ?>   
                                             </li>
 
